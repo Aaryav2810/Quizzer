@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 90vh;
+}
+
+input,
+:host >>> .ui-dropdown,
+:host >>> .ui-dropdown-label,
+:host >>> .ui-dropdown .ui-dropdown-trigger,
+:host >>> .ui-dropdown-items-wrapper,
+:host >>> .ui-button {
+  border-radius: 0;
+  background-color: #f1f3f6;
+}
